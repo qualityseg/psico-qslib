@@ -6,7 +6,7 @@
   justify-content: center;
   width: 100%; /* já define a largura para se ajustar à página */
   padding: 2em;
-  background-color: #CCD3D2; /* cinza claro */
+  background-color: #f0f0f0; /* cinza claro */
   box-sizing: border-box; /* incluído para garantir que o padding não adicione largura extra ao elemento */
 }
 .contact-info {
