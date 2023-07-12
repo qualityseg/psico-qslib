@@ -12,7 +12,7 @@ function Header() {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/tecnologia">Tecnologia</Link></li>
           <li><Link to="/contact-us">Fale Conosco</Link></li>
-          <li><Link to="/a-herah">A Herah</Link></li>
+          <li><Link to="/a-herah">A QualitySeg</Link></li>
         </ul>
       </nav>
     </header>

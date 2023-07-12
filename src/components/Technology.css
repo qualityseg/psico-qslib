@@ -33,7 +33,7 @@
 }
 
 .technology__title {
-    color: #333;
+    color: #019A85;
     font-size: 2.5rem;
     margin-bottom: 1rem;
     animation: fadeInUp 1s ease-in-out;
@@ -64,20 +64,21 @@
 
 .technology__description h2 {
     font-size: 1.5rem;
-    color: #333;
+    color: #019A85;
     margin-bottom: 1rem;
     font-weight: 500;
 }
 
 .technology__description h3 {
     font-size: 1.3rem;
-    color: #333;
+    color: #019A85;
     margin: 1rem 0;
     font-weight: 400;
 }
 
 .technology__description ul {
     padding-left: 1rem;
+    color: #019A85;
 }
 
 .technology__description ul li {
