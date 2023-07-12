@@ -1,0 +1,36 @@
+/* Header.css */
+.header {
+    background: linear-gradient(to right, #008D84, #019A85, #00464E);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+  }
+  
+  .header h1 {
+    margin-right: auto;
+    color: #fff;
+  }
+  
+  .header nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .header nav ul li {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .header nav ul li a:hover {
+    color: #ffd700;
+  }
+  

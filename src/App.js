@@ -1,24 +1,38 @@
-import logo from './logo.svg';
+// App.js
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Header from './components/Header';
+import About from './components/About';
+import AboutHerah from './components/AboutHerah';
+import Services from './components/Services';
+import Contact from './components/Contact';
+import ContactUs from './components/ContactUs';
+import Technology from './components/Technology';
+import Footer from './components/Footer';
+import 'leaflet/dist/leaflet.css';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <Routes>
+          <Route path="/" element={
+            <>
+              <About />
+              <Services />
+              <Contact />
+            </>
+          } />
+          <Route path="/tecnologia" element={<Technology />} />
+          <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/about-herah" element={<AboutHerah />} />
+        
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

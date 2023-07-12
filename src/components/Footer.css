@@ -1,0 +1,30 @@
+.footer-bar-1 {
+    background-color: #007B71;
+    height: 30px;
+  }
+  
+  .footer-bar-2 {
+    background-color: #013741;
+    height: 150px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  
+  .footer-bar-2 img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-left: 45px;
+  }
+  
+  .footer-bar-3 {
+    background-color: #001215;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 14px;
+    height: 0;
+  }
+  
