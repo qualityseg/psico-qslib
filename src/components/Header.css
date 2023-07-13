@@ -1,37 +1,37 @@
 /* Header.css */
 .header {
-    background: linear-gradient(to right, #008D84, #019A85, #00464E);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1px;
-    
+  background: linear-gradient(to right, #008D84, #019A85, #00464E);
+  position: relative;
+}
+
+.menu-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.header nav {
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(-100%);
+}
+
+.header nav.open {
+  transform: translateY(0);
+}
+
+/* Estilos existentes ... */
+
+@media screen and (min-width: 600px) {
+  .menu-icon {
+    display: none;
   }
-  
-  .header h1 {
-    margin-right: auto;
-    color: #fff;
+
+  .header nav {
+    transform: none !important;
   }
-  
-  .header nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    gap: 20px;
-  }
-  
-  .header nav ul li {
-    font-size: 18px;
-    font-weight: bold;
-  }
-  
-  .header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-  }
-  
-  .header nav ul li a:hover {
-    color: #ffd700;
-  }
-  
+}
