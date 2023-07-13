@@ -19,9 +19,7 @@ function Contact() {
 
   return (
     <section className="contact-wrapper">
-      
       <div className="contact-info">
-      
         <h2>Contato</h2>
         <p>(14) 3264-3737</p>
         <p>vendas1@qualitysegconsultoria.com.br</p>
@@ -42,19 +40,20 @@ function Contact() {
           </a>
         </div>
       </div>
-      <div className="contact-bar" />
-      <div className="map-wrapper">
-        <MapContainer center={position} zoom={13} style={{ height: "400px", width: "auto", margin: "auto", display: "flex", justifyContent: "center", alignItems: "center" }}>
-          <TileLayer
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-          />
-          <Marker position={position} icon={new L.Icon.Default()}>
-            <Popup>
-              QualitySeg
-            </Popup>
-          </Marker>
-        </MapContainer>
+      <div className="map-container">
+        <div className="map-wrapper">
+          <MapContainer center={position} zoom={13} style={{ height: "100%", width: "100%" }}>
+            <TileLayer
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+              attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+            />
+            <Marker position={position} icon={new L.Icon.Default()}>
+              <Popup>
+                QualitySeg
+              </Popup>
+            </Marker>
+          </MapContainer>
+        </div>
       </div>
     </section>
   );
