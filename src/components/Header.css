@@ -1,37 +1,71 @@
-/* Header.css */
 .header {
   background: linear-gradient(to right, #008D84, #019A85, #00464E);
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  position: relative; /* Adicione esta linha */
+  height: 60px;
 }
 
-.menu-icon {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background: transparent;
-  border: none;
+.header button.menu-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   color: #fff;
-  font-size: 24px;
-  cursor: pointer;
+  font-size: 30px;
+  background: none;
+  border: none;
 }
 
-.header nav {
-  transition: transform 0.3s ease-in-out;
-  transform: translateY(-100%);
+.header button span {
+  font-size: 18px;
 }
 
-.header nav.open {
-  transform: translateY(0);
+.header nav ul.mobile {
+  list-style: none;
+  padding: 0;
+  gap: 20px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute; /* Mude esta linha */
+  top: 60px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: #00464E;
+  padding: 10px;
+  border-radius: 0;
+  box-sizing: border-box;
+  z-index: 1000;
 }
 
-/* Estilos existentes ... */
 
-@media screen and (min-width: 600px) {
-  .menu-icon {
-    display: none;
-  }
+.header nav ul.mobile li a {
+  margin-left: 10px; /* Ajuste o valor conforme necessário */
+}
 
-  .header nav {
-    transform: none !important;
-  }
+
+.header nav ul.desktop {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.header nav ul li {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.header nav ul li a:hover {
+  color: #ffd700;
 }

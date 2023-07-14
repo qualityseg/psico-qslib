@@ -1,31 +1,40 @@
 // components/Header.js
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { useMediaQuery } from 'react-responsive';
+import { FiMenu, FiX } from 'react-icons/fi';
 import './Header.css';
 
-function Header() {
+const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const isMobile = useMediaQuery({ query: '(max-width: 768px)' });
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  }
+  const Menu = () => (
+    <ul className={isMobile ? "mobile" : "desktop"}>
+      <li><Link to="/">Home</Link></li>
+      <li><Link to="/tecnologia">Tecnologia</Link></li>
+      <li><Link to="/contact-us">Fale Conosco</Link></li>
+      <li><Link to="/a-herah">A QualitySeg</Link></li>
+    </ul>
+  );
 
   return (
     <header className="header">
-      <button onClick={toggleMenu} className="menu-icon">
-        {isOpen ? 'X' : '☰'}
-      </button>
-
-      <nav className={isOpen ? 'open' : ''}>
-        <ul>
-          <li><Link to="/" onClick={toggleMenu}>Home</Link></li>
-          <li><Link to="/tecnologia" onClick={toggleMenu}>Tecnologia</Link></li>
-          <li><Link to="/contact-us" onClick={toggleMenu}>Fale Conosco</Link></li>
-          <li><Link to="/a-herah" onClick={toggleMenu}>A QualitySeg</Link></li>
-        </ul>
-      </nav>
+      {isMobile ? (
+        <nav>
+          <button className="menu-button" onClick={() => setIsOpen(!isOpen)}>
+            {isOpen ? <FiX /> : <FiMenu />}
+            <span>MENU</span>
+          </button>
+          {isOpen && <Menu />}
+        </nav>
+      ) : (
+        <nav>
+          <Menu />
+        </nav>
+      )}
     </header>
   );
-}
+};
 
 export default Header;
