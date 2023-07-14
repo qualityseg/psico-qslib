@@ -118,12 +118,14 @@ body {
     padding: 20px;
     color: #019A85;
     width: 100%;
+    
 }
 
 .footer-text p {
     font-size: 24px;
     color: #019A85;
     margin: 1px 0;
+    margin-right: 35px;
 }
 
 .bungee-font {
