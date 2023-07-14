@@ -30,6 +30,7 @@
     padding: 2rem 0;
     background-color: #f0f0f0;
     font-family: 'Poppins', sans-serif;
+    margin-top: -32px;
 }
 
 .technology__title {
@@ -84,4 +85,26 @@
 .technology__description ul li {
     margin-bottom: 0.5rem;
     font-weight: 300;
+}
+
+.technology__newImage {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .technology__content {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .technology__image {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .technology__description {
+        width: calc(100% - 4px);
+        margin: 0 2px 2rem;
+    }
 }

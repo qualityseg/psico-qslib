@@ -1,10 +1,13 @@
 import React from 'react';
 import './Technology.css';
+import TechImage from '../images/tecnologia.png'; // Importando a nova imagem
 import PsicoAppImage from '../images/Psico-app.png'; // Importando a imagem 
 
 function Technology() {
     return (
         <div className="technology">
+            <img src={TechImage} alt="Tecnologia" className="technology__newImage"/> 
+            {/* Nova imagem adicionada aqui */}
             <h1 className="technology__title">Tecnologia</h1>
             <div className="technology__content">
                 <img src={PsicoAppImage} alt="Psico App" className="technology__image"/>
