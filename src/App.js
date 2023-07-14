@@ -26,8 +26,8 @@ function App() {
             </>
           } />
           <Route path="/tecnologia" element={<Technology />} />
-          <Route path="/contact-us" element={<ContactUs />} />
-          <Route path="/a-herah" element={<AboutHerah />} />
+          <Route path="/contato" element={<ContactUs />} />
+          <Route path="/a-qualityseg" element={<AboutHerah />} />
         
         </Routes>
         <Footer />
