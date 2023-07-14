@@ -9,13 +9,7 @@ const AboutHerah = () => {
         <div>
             <Header />
             <main>
-                <h1>About QualitySeg Consultoria</h1>
-                <img src="https://placekitten.com/200/300" alt="Placeholder kitten" />
-                <p>
-                    Insira aqui a informação sobre a QualitySeg Consultoria. 
-                    Pode descrever os serviços prestados, a missão e visão da empresa, 
-                    os principais projetos, etc.
-                </p>
+            <script language="javascript" type="text/javascript" src="http://writer.zohopublic.com/writer/docroll/806640654/10"></script>
             </main>
             <Contact />
             <Footer />

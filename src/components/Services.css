@@ -162,3 +162,29 @@ body {
     margin-bottom: 10px;
     color: #fff;
 }
+@media screen and (max-width: 768px) { /* Esta consulta de mídia será aplicada quando a largura da tela for menor que 768px, ou seja, em dispositivos móveis. */
+    .services-content {
+      flex-direction: column;
+    }
+    
+    .brain-image {
+      width: 200px;
+    }
+    
+    .left-service-item,
+    .right-service-item,
+    .service-item {
+      width: 100%;
+    }
+  
+    .additional-info {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .info-item {
+      margin: 20px 0;
+      max-width: 100%;
+    }
+  }
+  
