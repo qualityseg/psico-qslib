@@ -42,7 +42,7 @@ function Services() {
     <section className={`services ${show ? 'fade-in' : ''}`}>
       
       
-      <h2>Conheça nossos Serviços</h2>
+      <h2> Conheça nossos Serviços </h2>
       <div className="services-content">
         <div className="service-item left-service-item">
           <h3><MdApps /> LIAlab Mental App</h3>
