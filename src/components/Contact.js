@@ -22,20 +22,20 @@ function Contact() {
       <div className="contact-info">
         <h2>Contato</h2>
         <p>(14) 3264-3737</p>
-        <p>vendas1@qualitysegconsultoria.com.br</p>
+        <p>lifemedlp@gmail.com</p>
         <p>Rua XV de Novembro, 127</p>
         <p>Lençóis Paulista - SP</p>
         <div className="social-links">
-          <a href="https://www.facebook.com/QualitySegConsultoriaa" target="_blank" rel="noreferrer">
+          <a href="https://www.facebook.com/lifemedlp" target="_blank" rel="noreferrer">
             <FaFacebook size={32} color="#007B71" />
           </a>
-          <a href="https://www.instagram.com/qualitysegconsultoria/" target="_blank" rel="noreferrer">
+          <a href="https://www.instagram.com/lifemedlp/" target="_blank" rel="noreferrer">
             <FaInstagram size={32} color="#007B71" />
           </a>
-          <a href="https://www.linkedin.com/company/quality-seg-consultoria-e-gest%C3%A3o-empresarial/" target="_blank" rel="noreferrer">
+          <a href=" " target="_blank" rel="noreferrer">
             <FaLinkedin size={32} color="#007B71" />
           </a>
-          <a href="https://www.youtube.com/channel/UCs9jjhAsGLIJ_CmqFmcaXtQ" target="_blank" rel="noreferrer">
+          <a href="https://www.youtube.com/@lifemedlp" target="_blank" rel="noreferrer">
             <FaYoutube size={32} color="#007B71" />
           </a>
         </div>
@@ -49,7 +49,7 @@ function Contact() {
             />
             <Marker position={position} icon={new L.Icon.Default()}>
               <Popup>
-                QualitySeg
+                Lifemed
               </Popup>
             </Marker>
           </MapContainer>
