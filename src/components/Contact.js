@@ -21,9 +21,9 @@ function Contact() {
     <section className="contact-wrapper">
       <div className="contact-info">
         <h2>Contato</h2>
-        <p>(14) 3264-3737</p>
+        <p>(14) 99753-2259</p>
         <p>lifemedlp@outlook.com</p>
-        <p>Rua XV de Novembro, 127</p>
+        <p>Rua Manoel Amancio, 163</p>
         <p>Lençóis Paulista - SP</p>
         <div className="social-links">
           <a href="https://www.facebook.com/lifemedlp" target="_blank" rel="noreferrer">
