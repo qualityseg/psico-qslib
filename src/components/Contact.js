@@ -15,10 +15,10 @@ L.Icon.Default.mergeOptions({
 });
 
 function Contact() {
-  const position = [-22.598544, -48.794189]; // Coordenadas corrigidas para "Rua XV de Novembro, 127, Lençóis Paulista - SP"
+  const position = [-22.5987985,-48.7974796]; // Coordenadas corrigidas para "Rua XV de Novembro, 127, Lençóis Paulista - SP"
 
   return (
-    <section className="contact-wrapper">
+    <section className="contact-wrapper">   
       <div className="contact-info">
         <h2>Contato</h2>
         <p>(14) 99753-2259</p>
