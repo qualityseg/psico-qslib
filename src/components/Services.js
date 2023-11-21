@@ -45,20 +45,20 @@ function Services() {
       <h2>Conheça nossos Serviços</h2>
       <div className="services-content">
         <div className="service-item left-service-item">
-          <h3><MdApps /> QSLib Mental App</h3>
-          <p>Utilize inteligência artificial, automatize entrevistas clínicas...</p>
+          <h3><MdApps /> LIAlab Mental App</h3>
+          <p>Utilize Lifemed inteligência artificial (LIA), automatize entrevistas clínicas...</p>
         </div>
         <div className="image-container">
           <img src={brainImage} alt="Brain" className="brain-image" />
         </div>
         <div className="service-item right-service-item">
-          <h3><AiTwotoneReconciliation /> QSLib Humanálise</h3>
+          <h3><AiTwotoneReconciliation /> LIAlab Humanálise</h3>
           <p>Análise de personalidade, valores individuais e habilidades comportamentais</p>
         </div>
       </div>
       <div className="services-content">
         <div className="service-item">
-          <h3><AiOutlinePartition /> QSLib Tracking</h3>
+          <h3><AiOutlinePartition /> LIAlab Tracking</h3>
           <p>Identificação precoce de problemas de saúde mental...</p>
         </div>
       </div>

@@ -11,7 +11,7 @@ function Footer() {
         <img src={qualityFooter} alt="QualitySeg" className="footer-image"/>
       </div>
       <div className="footer-bar-3">
-        <p>Todos os direitos reservados | Desenvolvido pela equipe de TI da QualitySEG LP | 2023 ©</p>
+        <p>Todos os direitos reservados | Desenvolvido pela equipe da LIAlab (Lifemed Inteligência Artificial) | 2023 ©</p>
       </div>
     </footer>
   );

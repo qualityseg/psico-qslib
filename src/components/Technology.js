@@ -12,10 +12,10 @@ function Technology() {
             <div className="technology__content">
                 <img src={PsicoAppImage} alt="Psico App" className="technology__image"/>
                 <div className="technology__description">
-                    <h2>Escaneamento digital da sua mente com a inteligencia artificial empática QSLib Psico</h2>
+                    <h2>Escaneamento digital da sua mente com a inteligencia artificial empática LIAlab Psico</h2>
                     <p>
                         Acesse nosso Portal pela web, por enquanto fique ansioso para o lançamento do nosso aplicativo Android e iOS. Responda diversas perguntas sobre você, 
-                        sua saúde física e mental. Enquanto isso, a QSLib Psico analisará seu padrão dinâmico 
+                        sua saúde física e mental. Enquanto isso, a LIAlab Psico analisará seu padrão dinâmico 
                         de comportamento com o sistema, trazendo informações preciosas para melhorar sua saúde e sua vida.
                     </p>
                     <h3>Relatórios conclusivos:</h3>
