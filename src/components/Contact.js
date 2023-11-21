@@ -22,7 +22,7 @@ function Contact() {
       <div className="contact-info">
         <h2>Contato</h2>
         <p>(14) 3264-3737</p>
-        <p>lifemedlp@gmail.com</p>
+        <p>lifemedlp@outlook.com</p>
         <p>Rua XV de Novembro, 127</p>
         <p>Lençóis Paulista - SP</p>
         <div className="social-links">
@@ -35,7 +35,7 @@ function Contact() {
           <a href=" " target="_blank" rel="noreferrer">
             <FaLinkedin size={32} color="#007B71" />
           </a>
-          <a href="https://www.youtube.com/@lifemedlp" target="_blank" rel="noreferrer">
+          <a href="https://www.youtube.com/channel/UCFPSQxoHrBZcAMwIsBDzynw" target="_blank" rel="noreferrer">
             <FaYoutube size={32} color="#007B71" />
           </a>
         </div>
