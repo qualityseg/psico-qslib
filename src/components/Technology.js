@@ -30,10 +30,11 @@ function Technology() {
 
                     <p> </p>
 
-                    <img src={PsicoBanner1} alt="Psico App" />     
+    
                     </ul>
                 </div>
             </div>
+            <img src={PsicoBanner1} alt="Psico App" /> 
         </div>
     );
 }
