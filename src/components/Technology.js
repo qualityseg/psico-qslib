@@ -3,6 +3,7 @@ import './Technology.css';
 import TechImage from '../images/tecnologia.png'; // Importando a nova imagem
 import PsicoAppImage from '../images/Psico-app.png'; // Importando a imagem 
 import PsicoBanner1 from '../images/tela1.png'; // Importando a imagem 
+import PsicoBanner2 from '../images/tela2.png'; // Importando a imagem 
 
 function Technology() {
     return (
@@ -35,6 +36,8 @@ function Technology() {
                 </div>
             </div>
             <img src={PsicoBanner1} alt="Psico App" /> 
+            <p></p>
+            <img src={PsicoBanner2} alt="Psico App" />
         </div>
     );
 }
