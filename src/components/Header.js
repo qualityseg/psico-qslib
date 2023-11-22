@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
 import { FiMenu, FiX } from 'react-icons/fi';
 import './Header.css';
+import qualityFooter from '../images/quality-footer.png'; // Ajuste o caminho conforme necessário
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,6 +12,10 @@ const Header = () => {
 
   const Menu = () => (
     <ul className={isMobile ? "mobile" : "desktop"}>
+
+       <div className="footer-bar-2">
+        <img src={qualityFooter} alt="LIA Lab" className="footer-image"/>
+      </div>
       <li><Link to="/">Home</Link></li>
       <li><Link to="/tecnologia">Tecnologia</Link></li>
       <li><Link to="/contato">Fale Conosco</Link></li>
