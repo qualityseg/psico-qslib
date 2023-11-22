@@ -14,6 +14,8 @@ const Header = () => {
     <ul className={isMobile ? "mobile" : "desktop"}>
        
       <img src={qualityFooter} alt="LIA Lab" className="footer-image"/>
+      <p></p>
+      <p></p>
       <li><Link to="/">Home</Link></li>
       <li><Link to="/tecnologia">Tecnologia</Link></li>
       <li><Link to="/contato">Fale Conosco</Link></li>
