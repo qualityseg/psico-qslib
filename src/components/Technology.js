@@ -4,6 +4,7 @@ import TechImage from '../images/tecnologia.png'; // Importando a nova imagem
 import PsicoAppImage from '../images/Psico-app.png'; // Importando a imagem 
 import PsicoBanner1 from '../images/tela1.png'; // Importando a imagem 
 import PsicoBanner2 from '../images/tela2.png'; // Importando a imagem 
+import PsicoBanner3 from '../images/tela3.png'; // Importando a imagem 
 
 function Technology() {
     return (
@@ -12,7 +13,7 @@ function Technology() {
             {/* Nova imagem adicionada aqui */}
             <h1 className="technology__title">Tecnologia</h1>
             <div className="technology__content">
-                
+
                 <img src={PsicoAppImage} alt="Psico App" className="technology__image"/>
 
 
@@ -28,7 +29,7 @@ function Technology() {
                         <li>Estados mentais</li>
                         <li>Comportamento</li>
                         <li>Traços de personalidade</li>
-                        <li>Interação mente e corpo brasil </li>
+                        <li>Interação mente e corpo brasil</li>
 
                     <p> </p>
     
@@ -39,6 +40,8 @@ function Technology() {
             <img src={PsicoBanner1} alt="Psico App" className="technology__image" /> 
             <p></p>
             <img src={PsicoBanner2} alt="Psico App" className="technology__image" />
+            <p></p>
+            <img src={PsicoBanner3} alt="Psico App" className="technology__image" />           
         </div>
     );
 }
