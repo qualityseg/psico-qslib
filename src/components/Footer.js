@@ -8,7 +8,7 @@ function Footer() {
     <footer>
       <div className="footer-bar-1"></div>
       <div className="footer-bar-2">
-        <img src={qualityFooter} alt="QualitySeg" className="footer-image"/>
+        <img src={qualityFooter} alt="LIA Lab" className="footer-image"/>
       </div>
       <div className="footer-bar-3">
         <p>Todos os direitos reservados | Desenvolvido pela equipe da LIAlab (Lifemed Inteligência Artificial) | 2023 ©</p>

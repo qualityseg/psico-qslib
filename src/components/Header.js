@@ -14,7 +14,7 @@ const Header = () => {
     <ul className={isMobile ? "mobile" : "desktop"}>
        
     
-<li><Link to="/">Home</Link></li>
+      <li><Link to="/">Home</Link></li>
       <li><Link to="/tecnologia">Tecnologia</Link></li>
       <li><Link to="/contato">Fale Conosco</Link></li>
       <li><Link to="/a-qualityseg">A Lifemed</Link></li>
