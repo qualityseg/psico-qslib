@@ -16,7 +16,8 @@ const MobileMenu = ({ isOpen, setIsOpen }) => {
           <li><Link to="/" onClick={() => setIsOpen(false)}>Home</Link></li>
           <li><Link to="/tecnologia" onClick={() => setIsOpen(false)}>Tecnologia</Link></li>
           <li><Link to="/contact-us" onClick={() => setIsOpen(false)}>Fale Conosco</Link></li>
-          <li><Link to="/a-herah" onClick={() => setIsOpen(false)}>A QualitySeg</Link></li>
+          <li><Link to="/a-herah" onClick={() => setIsOpen(false)}>A Lifemed</Link></li>
+          <li><Link to="https://psico-painel.vercel.app/Login" onClick={() => setIsOpen(false)}>Login</Link></li>
         </ul>
       </div>
     </CSSTransition>
