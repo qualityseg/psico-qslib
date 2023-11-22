@@ -28,9 +28,9 @@ function Technology() {
                         <li>Traços de personalidade</li>
                         <li>Interação mente e corpo brasil </li>
 
-                    |<p></p>
+                    <p> </p>
 
-                    <img src={PsicoBanner1} alt="Psico App" className="technology__image"/>     
+                    <img src={PsicoBanner1} alt="Psico App" />     
                     </ul>
                 </div>
             </div>
