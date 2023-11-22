@@ -21,11 +21,7 @@ const Header = () => {
       <li><Link to="/a-qualityseg">A Lifemed</Link></li>
       <li><Link to="https://psico-painel.vercel.app/Login">Login</Link></li>
       
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/tecnologia">Tecnologia</Link></li>
-      <li><Link to="/contato">Fale Conosco</Link></li>
-      <li><Link to="/a-qualityseg">A Lifemed</Link></li>
-      <li><Link to="https://psico-painel.vercel.app/Login">Login</Link></li>
+
     </ul>
   );
 
