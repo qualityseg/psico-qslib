@@ -2,6 +2,7 @@ import React from 'react';
 import './Technology.css';
 import TechImage from '../images/tecnologia.png'; // Importando a nova imagem
 import PsicoAppImage from '../images/Psico-app.png'; // Importando a imagem 
+import PsicoBanner1 from '../images/tela1.png'; // Importando a imagem 
 
 function Technology() {
     return (
@@ -11,6 +12,8 @@ function Technology() {
             <h1 className="technology__title">Tecnologia</h1>
             <div className="technology__content">
                 <img src={PsicoAppImage} alt="Psico App" className="technology__image"/>
+                <img src={PsicoBanner1} alt="Psico App" className="technology__image"/> 
+
                 <div className="technology__description">
                     <h2>Escaneamento digital da sua mente com a inteligencia artificial empática LIAlab Psico</h2>
                     <p>
