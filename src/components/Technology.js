@@ -12,6 +12,7 @@ function Technology() {
             {/* Nova imagem adicionada aqui */}
             <h1 className="technology__title">Tecnologia</h1>
             <div className="technology__content">
+                
                 <img src={PsicoAppImage} alt="Psico App" className="technology__image"/>
 
 
@@ -30,14 +31,14 @@ function Technology() {
                         <li>Interação mente e corpo brasil </li>
 
                     <p> </p>
-
     
                     </ul>
                 </div>
             </div>
-            <img src={PsicoBanner1} alt="Psico App" /> 
+
+            <img src={PsicoBanner1} alt="Psico App" className="technology__image" /> 
             <p></p>
-            <img src={PsicoBanner2} alt="Psico App" />
+            <img src={PsicoBanner2} alt="Psico App" className="technology__image" />
         </div>
     );
 }
