@@ -12,7 +12,7 @@ function Technology() {
             <h1 className="technology__title">Tecnologia</h1>
             <div className="technology__content">
                 <img src={PsicoAppImage} alt="Psico App" className="technology__image"/>
-                <img src={PsicoBanner1} alt="Psico App" className="technology__image"/> 
+
 
                 <div className="technology__description">
                     <h2>Escaneamento digital da sua mente com a inteligencia artificial empática LIAlab Psico</h2>
@@ -26,7 +26,11 @@ function Technology() {
                         <li>Estados mentais</li>
                         <li>Comportamento</li>
                         <li>Traços de personalidade</li>
-                        <li>Interação mente e corpo</li>
+                        <li>Interação mente e corpo brasil </li>
+
+                    |<p></p>
+
+                    <img src={PsicoBanner1} alt="Psico App" className="technology__image"/>     
                     </ul>
                 </div>
             </div>
