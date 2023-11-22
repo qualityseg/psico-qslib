@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
 import { FiMenu, FiX } from 'react-icons/fi';
 import './Header.css';
+import * as gtag from "../../lib/gtag";
 import qualityFooter from '../images/quality-footer.png'; // Ajuste o caminho conforme necessário
 
 const Header = () => {
