@@ -16,6 +16,7 @@ const Header = () => {
       <p></p> 
       <p><img src={minilogo} alt="Psico App" /></p>
       <a></a>
+      <li><Link to="/">Home</Link></li>
       <p><li><Link to="/">Home</Link></li></p>
       <p><li><Link to="/tecnologia">Tecnologia</Link></li></p>
       <p><li><Link to="/contato">Fale Conosco</Link></li></p>
