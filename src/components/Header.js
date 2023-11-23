@@ -15,13 +15,12 @@ const Header = () => {
     <ul className={isMobile ? "mobile" : "desktop"}>
        
       <p><img src={minilogo} alt="Psico App" /></p>
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/tecnologia">Tecnologia</Link></li>
-      <li><Link to="/contato">Fale Conosco</Link></li>
-
+      <p><li><Link to="/">Home</Link></li></p>
+      <p><li><Link to="/tecnologia">Tecnologia</Link></li></p>
+      <p><li><Link to="/contato">Fale Conosco</Link></li></p>
       <p> <li><Link to="/a-qualityseg">A Lifemed</Link></li>  </p>
       <p> <li><Link to="https://psico-painel.vercel.app/Login">Login</Link></li> </p>
-
+      
     </ul>
   );
 
