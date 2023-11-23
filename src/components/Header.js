@@ -5,6 +5,7 @@ import { useMediaQuery } from 'react-responsive';
 import { FiMenu, FiX } from 'react-icons/fi';
 import './Header.css';
 import qualityFooter from '../images/quality-footer.png'; // Ajuste o caminho conforme necessário
+import minilogo from '../images/minilogo.png'; 
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
