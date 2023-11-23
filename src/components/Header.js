@@ -14,7 +14,8 @@ const Header = () => {
   const Menu = () => (
     <ul className={isMobile ? "mobile" : "desktop"}>
        
-    
+       <img src={minilogo} alt="Psico App" className="technology__image" /> 
+
       <li><Link to="/">Home</Link></li>
       <li><Link to="/tecnologia">Tecnologia</Link></li>
       <li><Link to="/contato">Fale Conosco</Link></li>
