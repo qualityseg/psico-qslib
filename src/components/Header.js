@@ -14,8 +14,8 @@ const Header = () => {
   const Menu = () => (
     <ul className={isMobile ? "mobile" : "desktop"}>
       <p></p> 
-      <img src={minilogo} alt="Psico App" />
-       
+      
+      <img src={minilogo} alt="Psico App" className={styles.watermark} /> {/* Adicionando o logo2 como marca d'água */} 
     
       <p><li><Link to="/">Home</Link></li></p>
       <p><li><Link to="/tecnologia">Tecnologia</Link></li></p>
