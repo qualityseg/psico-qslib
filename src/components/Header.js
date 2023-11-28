@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
 import { FiMenu, FiX } from 'react-icons/fi';
-import './Header.css';
+import styles from './Header.css';
 import qualityFooter from '../images/quality-footer.png'; // Ajuste o caminho conforme necessário
 import minilogo from '../images/minilogo.png'; 
 
