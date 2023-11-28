@@ -29,7 +29,7 @@ function Technology() {
                         <li>Estados mentais</li>
                         <li>Comportamento</li>
                         <li>Traços de personalidade</li>
-                        <li>Interação mente e corpo brasil</li>
+                        <li>Interação Mente e Corpo</li>
 
                     <p> </p>
     
