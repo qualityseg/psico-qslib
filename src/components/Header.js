@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
 import { FiMenu, FiX } from 'react-icons/fi';
 import './Header.css';
+import styles from './Header.css';
 import qualityFooter from '../images/quality-footer.png'; // Ajuste o caminho conforme necessário
 import minilogo from '../images/minilogo.png'; 
 
@@ -15,7 +16,7 @@ const Header = () => {
     <ul className={isMobile ? "mobile" : "desktop"}>
       <p></p> 
       
-      <img src={minilogo} alt="Psico" className={styles.watermark}/> {/* Adicionando o logo2 como marca d'água */} 
+      <img src={minilogo} alt="Psico"/> {/* Adicionando o logo2 como marca d'água */} 
     
       <p><li><Link to="/">Home</Link></li></p>
       <p><li><Link to="/tecnologia">Tecnologia</Link></li></p>
