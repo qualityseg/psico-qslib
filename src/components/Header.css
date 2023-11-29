@@ -7,7 +7,13 @@
   position: relative; /* Adicione esta linha */
   height: 60px;
 }
-
+.watermark {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 300px; /* Ajuste o tamanho conforme necessário */
+  opacity: 0.5; /* Ajuste a opacidade conforme necessário */
+}
 .header button.menu-button {
   display: flex;
   align-items: center;
