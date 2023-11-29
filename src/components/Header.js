@@ -15,7 +15,7 @@ const Header = () => {
     <ul className={isMobile ? "mobile" : "desktop"}>
       <p></p> 
       
-      <img src={minilogo} alt="Psico" className={styles.watermark}/> {/* Adicionando o logo2 como marca d'água */} 
+      <img src={minilogo} alt="Psico" height="50" width="50" /> {/* Adicionando o logo2 como marca d'água */} 
     
       <p><li><Link to="/">Home</Link></li></p>
       <p><li><Link to="/tecnologia">Tecnologia</Link></li></p>
