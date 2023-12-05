@@ -22,7 +22,7 @@ function Contact() {
       <div className="contact-info">
         <h2>Contato</h2>
         <p>(14) 99636-1105</p>
-        <p>lifemedlp@outlook.com</p>
+        <p>contato@lifemedlp.com.br</p>
         <p>Rua Manoel Amancio, 163</p>
         <p>Lençóis Paulista - SP</p>
         <div className="social-links">
